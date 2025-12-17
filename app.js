@@ -22,7 +22,7 @@ main()
 });
 
 app.get("/",(req,res)=>{
-    res.send("Hi, I am root");
+    res.render("listings/new.ejs");
 });
 
 app.set("view engine","ejs");
